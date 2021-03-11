@@ -1,5 +1,3 @@
---PayPal Tools is a GUI for jailbreak made by 'Haze'.
-
 local library = {}
 
 function dragify(Frame)
