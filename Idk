@@ -142,7 +142,7 @@ function library:CreateFrame()
     Name.Position = UDim2.new(0.00462962966, 0, 0.013001984, 0)
     Name.Size = UDim2.new(0, 183, 0, 50)
     Name.Font = Enum.Font.GothamBold
-    Name.Text = "Ace"
+    Name.Text = "Example"
     Name.TextColor3 = Color3.fromRGB(0, 170, 255)
     Name.TextSize = 25.000
 
@@ -154,7 +154,7 @@ function library:CreateFrame()
     SubName.Position = UDim2.new(0.00657894742, 0, 0.15536508, 0)
     SubName.Size = UDim2.new(0, 177, 0, 19)
     SubName.Font = Enum.Font.GothamBold
-    SubName.Text = "Hub"
+    SubName.Text = "Gui"
     SubName.TextColor3 = Color3.fromRGB(255, 255, 255)
     SubName.TextSize = 20.000
 
