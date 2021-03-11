@@ -1,0 +1,12 @@
+local lib = loadstring(game:HttpGet"https://raw.githubusercontent.com/BloxiYT/Scripts/main/Idk")()
+
+local win = lib:CreateFrame()
+
+win:CreateLabel("Leaked By Bloxi")
+win:CreateLabel("Ui By Haze")
+
+win:CreateToggle("Toggle", false, function(t)
+   print(t)
+end)
+
+win:CreateTextBox()
