@@ -1,0 +1,17 @@
+local Library = loadstring(game:HttpGet('https://raw.githubusercontent.com/ItsRainbow/SpotifyUILibrary/main/source.lua'))()
+
+local UI = Library:CreateUI() --create ui
+
+UI:CreateTextbox("Walkspeed", false, function(value) --textbox for walkspeed
+    game:GetService("Players").LocalPlayer.Character.Humanoid.WalkSpeed = value
+end)
+
+UI:CreateTextbox("Jumppower", false, function(value) --textbox for jumppower
+    game:GetService("Players").LocalPlayer.Character.Humanoid.JumpPower = value
+end)
+
+UI:CreateSeparator() ---Separator
+
+UI:CreateButton("200 Jumppower", function() --button
+    game:GetService("Players").LocalPlayer.Character.Humanoid.JumpPower = 200
+end)
