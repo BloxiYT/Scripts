@@ -1,0 +1,50 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/BloxiYT/Scripts/main/Discord%20Ui%20Lib"))()
+
+local gui = Library:Create("Bloxi's server")
+local section1 = gui:AddSection("🧀｜weryfikacja")
+
+section1:AddButton(
+    "Button",
+    function()
+        print("a")
+    end
+)
+
+section1:AddSlider(
+    "Slider",
+    0,
+    10,
+    function(value)
+        print(value)
+    end
+)
+
+section1:AddToggle(
+    "Toggle",
+    function(enabled)
+        print(enabled)
+    end
+)
+
+section1:AddButton(
+    "Notification",
+    function()
+        gui:Notify("Title","Description")
+    end
+)
+
+section1:AddLabel("Label")
+
+section1:AddTextbox(
+    "Textbox Title",
+    "Preview Text",
+    function(text)
+        print(text)
+    end
+)
+
+section1:Select() -- selects page
+
+local section2 = gui:AddSection("🧀｜info-o-weryfikacji")
+
+section2:AddLabel("Nowy system weryfikacji: wpisz !verify na #🧀｜weryfikacja")
