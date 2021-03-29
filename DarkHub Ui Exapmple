@@ -1,0 +1,16 @@
+local lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/NewUI"))()
+main = lib:Window()
+local MainWindow = main:Tab('Main')
+
+
+MainWindow:Button('Button',function()
+    print("Clicked")
+end)
+
+MainWindow:Slider('Slider',1,91,function(val)
+    print(val)
+end)
+
+MainWindow:Toggle('Gravity',function(state)
+  print(state)
+ end)
