@@ -1,4 +1,4 @@
-local lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/NewUI"))()
+local lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/BloxiYT/Scripts/main/DarkHub%20Ui"))()
 main = lib:Window()
 local MainWindow = main:Tab('Main')
 
